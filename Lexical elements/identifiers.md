@@ -1,8 +1,6 @@
-# Identifiers
+# [식별자(Identifiers)](#identifiers)
 
-# 식별자
-
-* spec 버전: June 28, 2017
+* Go 버전: 1.9
 * 원문: [Identifiers](https://golang.org/ref/spec#Identifiers)
 * 번역자: [조석규](@ezaurum)
 
@@ -13,17 +11,6 @@ Identifiers name program entities such as variables and types. An identifier is 
 <pre>
 <a id="identifier">identifier</a> = <a href="/Source code representation/letters_and_digits.html#letter">letter</a> { <a href="/Source code representation/letters_and_digits.html#letter">letter</a> | <a href="/Source code representation/characters.html#unicode_digit">unicode_digit</a> } .
 </pre>
-
-<pre>
-<a id="identifier">식별자</a> = <a href="/Source code representation/letters_and_digits.html#letter">영문자</a> { <a href="/Source code representation/letters_and_digits.html#letter">영문자</a> | <a href="/Source code representation/characters.html#unicode_digit">유니코드 숫자</a> } .
-</pre>
-
-```
-a
-_x9
-ThisVariableIsExported
-αβ
-```
 
 ```
 a
